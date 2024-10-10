@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="content1"></div>
+
+    <div id="content2"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@3.1.8/dist/browser/signalr.min.js"></script>
+    <script src="https://unpkg.com/rxjs@7.8.1/dist/bundles/rxjs.umd.min.js"></script>
+
+    <script type="text/javascript">
+        const subject = new rxjs.Subject();
+
+        subject.subscribe((message) => {
+            // Acceder a las propiedades del mensaje directamente
+            const epc = message.EPC;
+            const antennaPort = message.AntennaPort;
+            const rssi = message.RSSI;
+            const firstSeenTime = message.FirstSeenTime;
+            const lastSeenTime = message.LastSeenTime;
+
+            // Mostrar los datos en el frontend
+            document.getElementById('content1').innerHTML += `
+        <div>
+            <strong>EPC:</strong> ${epc}<br>
+            <strong>Puerto de la Antena:</strong> ${antennaPort}<br>
+            <strong>RSSI:</strong> ${rssi}<br>
+            <strong>Primera Vez Visto:</strong> ${firstSeenTime}<br>
+            <strong>Última Vez Visto:</strong> ${lastSeenTime}<br>
+            <hr>
+        </div>
+    `;
+        });
+
+        
+        // Configurar la conexión con SignalR
+        const connection = new signalR.HubConnectionBuilder().withUrl("/message").build();
+
+        connection.start()
+            .then(() => console.log("Conectado con éxito a SignalR"))
+            .catch(err => console.error("Error al conectar con SignalR:", err.message));
+
+        connection.on("sendEpc", (message) => {
+            console.log("Mensaje recibido:", message);
+            subject.next(JSON.stringify(message));  // Enviar el mensaje al subject
+        });
+    </script>
+</body>
+</html>

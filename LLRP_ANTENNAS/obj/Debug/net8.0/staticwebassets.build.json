@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "9cu2BsElP5QHTw9XGcbyz8EP4HVZKbmjht7aGSBKkxo=",
+  "Source": "LLRP_ANTENNAS",
+  "BasePath": "_content/LLRP_ANTENNAS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LLRP_ANTENNAS\\wwwroot",
+      "Source": "LLRP_ANTENNAS",
+      "ContentRoot": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\wwwroot\\",
+      "BasePath": "_content/LLRP_ANTENNAS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\wwwroot\\index.html",
+      "SourceId": "LLRP_ANTENNAS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\wwwroot\\",
+      "BasePath": "_content/LLRP_ANTENNAS",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

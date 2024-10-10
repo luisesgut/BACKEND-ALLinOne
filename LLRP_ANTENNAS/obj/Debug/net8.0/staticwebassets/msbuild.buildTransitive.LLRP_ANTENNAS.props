@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\LLRP_ANTENNAS.props" />
+</Project>

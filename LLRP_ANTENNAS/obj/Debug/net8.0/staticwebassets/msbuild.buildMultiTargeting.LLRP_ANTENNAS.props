@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LLRP_ANTENNAS.props" />
+</Project>

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LLRP_ANTENNAS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LLRP_ANTENNAS.props",
+      "PackagePath": "build\\LLRP_ANTENNAS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LLRP_ANTENNAS.props",
+      "PackagePath": "buildMultiTargeting\\LLRP_ANTENNAS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LLRP_ANTENNAS.props",
+      "PackagePath": "buildTransitive\\LLRP_ANTENNAS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
