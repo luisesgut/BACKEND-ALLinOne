@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uPl2gt4mGRszw22XwZ835lHKlSjcR1sly3mkmy4IRwfiToNyojmEfBhqjsXk6/850wSM1faOPtHwjT3OaWvBBw==",
+  "dgSpecHash": "TmaDipKo48gd1JkMIbueJVIliKNoqghogTLxT4QtOCchBxcUM8hyIRGijIDyENEZc75s5DOgg3J5GDDT8o57Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj",
+  "projectFilePath": "C:\\Users\\luiss\\Desktop\\LLRP_ANTENAS\\BACKEND-ALLinOne\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiss\\.nuget\\packages\\libltknet-sdk\\11.4.0\\libltknet-sdk.11.4.0.nupkg.sha512",
     "C:\\Users\\luiss\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.8\\microsoft.aspnetcore.connections.abstractions.8.0.8.nupkg.sha512",

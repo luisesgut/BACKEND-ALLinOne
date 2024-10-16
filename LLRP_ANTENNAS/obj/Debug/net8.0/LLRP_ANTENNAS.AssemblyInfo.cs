@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LLRP_ANTENNAS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4e15078b60969873bc9d15802f1f49887e2b27c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LLRP_ANTENNAS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LLRP_ANTENNAS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj": {}
+    "C:\\Users\\luiss\\Desktop\\LLRP_ANTENAS\\BACKEND-ALLinOne\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj": {
+    "C:\\Users\\luiss\\Desktop\\LLRP_ANTENAS\\BACKEND-ALLinOne\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj",
+        "projectUniqueName": "C:\\Users\\luiss\\Desktop\\LLRP_ANTENAS\\BACKEND-ALLinOne\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj",
         "projectName": "LLRP_ANTENNAS",
-        "projectPath": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj",
+        "projectPath": "C:\\Users\\luiss\\Desktop\\LLRP_ANTENAS\\BACKEND-ALLinOne\\LLRP_ANTENNAS\\LLRP_ANTENNAS.csproj",
         "packagesPath": "C:\\Users\\luiss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiss\\Desktop\\LLRP ANTENAS SALIDA\\LLRP_ANTENNAS\\LLRP_ANTENNAS\\obj\\",
+        "outputPath": "C:\\Users\\luiss\\Desktop\\LLRP_ANTENAS\\BACKEND-ALLinOne\\LLRP_ANTENNAS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luiss\\AppData\\Roaming\\NuGet\\NuGet.Config",

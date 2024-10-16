@@ -1,0 +1,174 @@
+2024-10-14 11:37:47.893 -06:00 [INF] Iniciando la aplicación...
+2024-10-14 11:37:48.248 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-14 11:37:48.254 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-14 11:37:48.256 -06:00 [INF] Hosting environment: Development
+2024-10-14 11:37:48.258 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-14 11:37:49.562 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-14 11:37:49.991 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 436.1383ms
+2024-10-14 11:37:50.004 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.css - null null
+2024-10-14 11:37:50.005 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/swagger-ui-bundle.js - null null
+2024-10-14 11:37:50.005 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/swagger-ui.css - null null
+2024-10-14 11:37:50.017 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-14 11:37:50.012 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-14 11:37:50.035 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-14 11:37:50.038 -06:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-10-14 11:37:50.038 -06:00 [INF] The file /swagger-ui.css was not modified
+2024-10-14 11:37:50.038 -06:00 [INF] The file /index.css was not modified
+2024-10-14 11:37:50.039 -06:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-10-14 11:37:50.045 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/swagger-ui-bundle.js - 304 null text/javascript 41.0213ms
+2024-10-14 11:37:50.045 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/swagger-ui.css - 304 null text/css 41.4346ms
+2024-10-14 11:37:50.069 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 52.2311ms
+2024-10-14 11:37:50.043 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 29.8227ms
+2024-10-14 11:37:50.047 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.css - 304 null text/css 42.5015ms
+2024-10-14 11:37:50.108 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-14 11:37:50.114 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.0373ms
+2024-10-14 11:37:50.193 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.9951ms
+2024-10-14 11:37:50.348 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-14 11:37:50.897 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 548.4746ms
+2024-10-14 11:44:26.842 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-14 11:44:26.851 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:44:26.867 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-14 11:44:27.036 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-14 11:44:27.128 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-14 11:44:30.645 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-14 11:44:30.660 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 3521.9601ms
+2024-10-14 11:44:30.663 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-14 11:44:30.679 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 3836.9524ms
+2024-10-14 11:44:34.052 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:44:34.058 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:44:34.061 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 9.3537ms
+2024-10-14 11:44:34.062 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:44:34.073 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:44:34.079 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:44:34.144 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:44:34.159 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:44:34.161 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 16.619ms
+2024-10-14 11:44:34.163 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:44:34.170 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:44:34.172 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:44:34.764 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:44:34.764 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:44:34.767 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 603.8175ms
+2024-10-14 11:44:34.769 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 706.7577ms
+2024-10-14 11:44:34.775 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/message?id=uNb7pnxHSxo2ZOH8dt7WAg - null null
+2024-10-14 11:44:34.783 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:44:34.784 -06:00 [INF] Executing endpoint '/message'
+2024-10-14 11:44:34.925 -06:00 [INF] Cliente conectado: wsgYxncMML8ooAi59mi0jw
+2024-10-14 11:46:46.195 -06:00 [INF] Cliente desconectado: wsgYxncMML8ooAi59mi0jw
+2024-10-14 11:46:46.203 -06:00 [INF] Executed endpoint '/message'
+2024-10-14 11:46:46.210 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/message?id=uNb7pnxHSxo2ZOH8dt7WAg - 101 null null 131434.9583ms
+2024-10-14 11:46:51.605 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:46:51.613 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:46:51.613 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:46:51.639 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:46:51.641 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 36.6602ms
+2024-10-14 11:46:51.644 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 30.7477ms
+2024-10-14 11:46:51.661 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:46:51.653 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:46:51.693 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:46:51.700 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:46:51.702 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:46:51.704 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:46:51.706 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:46:51.708 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:46:51.709 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 60.7534ms
+2024-10-14 11:46:51.711 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 62.2465ms
+2024-10-14 11:46:51.714 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/message?id=dme7sC20McqZPzpK-Xhfrg - null null
+2024-10-14 11:46:51.723 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:46:51.725 -06:00 [INF] Executing endpoint '/message'
+2024-10-14 11:46:51.729 -06:00 [INF] Cliente conectado: XTFuh1VuKLU1fukc6Zbgrg
+2024-10-14 11:49:13.041 -06:00 [INF] Cliente desconectado: XTFuh1VuKLU1fukc6Zbgrg
+2024-10-14 11:49:13.046 -06:00 [INF] Executed endpoint '/message'
+2024-10-14 11:49:13.052 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/message?id=dme7sC20McqZPzpK-Xhfrg - 101 null null 141337.5067ms
+2024-10-14 11:49:14.139 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:49:14.149 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:14.151 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:49:14.166 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 26.9726ms
+2024-10-14 11:49:14.172 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:49:14.180 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:14.196 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:14.198 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 46.6229ms
+2024-10-14 11:49:14.199 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:49:14.199 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:49:14.204 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:49:14.210 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:14.211 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 39.1774ms
+2024-10-14 11:49:14.213 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:49:14.221 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:49:14.224 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 25.531ms
+2024-10-14 11:49:14.228 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/message?id=a34kFO7acTuDuahoIH7K2w - null null
+2024-10-14 11:49:14.240 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:14.241 -06:00 [INF] Executing endpoint '/message'
+2024-10-14 11:49:14.250 -06:00 [INF] Cliente conectado: _Br92yZtPdWdDta0b5grmw
+2024-10-14 11:49:22.534 -06:00 [INF] Cliente desconectado: _Br92yZtPdWdDta0b5grmw
+2024-10-14 11:49:22.536 -06:00 [INF] Executed endpoint '/message'
+2024-10-14 11:49:22.540 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/message?id=a34kFO7acTuDuahoIH7K2w - 101 null null 8311.9955ms
+2024-10-14 11:49:23.141 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:49:23.149 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:23.150 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 11:49:23.153 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 11.9603ms
+2024-10-14 11:49:23.160 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:49:23.174 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:23.193 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:23.195 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 46.0461ms
+2024-10-14 11:49:23.197 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:49:23.199 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 11:49:23.209 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:49:23.218 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:23.221 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 60.5544ms
+2024-10-14 11:49:23.223 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 11:49:23.233 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 11:49:23.239 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 40.4494ms
+2024-10-14 11:49:23.245 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/message?id=UAyBttmB9B2x3MMnj03JMQ - null null
+2024-10-14 11:49:23.256 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:23.257 -06:00 [INF] Executing endpoint '/message'
+2024-10-14 11:49:23.262 -06:00 [INF] Cliente conectado: RMriwHm_7CeXXl6Hy2oFng
+2024-10-14 11:49:49.514 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-14 11:49:49.542 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:49.554 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-14 11:49:49.561 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-14 11:49:49.710 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-14 11:49:49.714 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 147.8782ms
+2024-10-14 11:49:49.717 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-14 11:49:49.722 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 208.2551ms
+2024-10-14 11:49:57.393 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-14 11:49:57.399 -06:00 [INF] CORS policy execution successful.
+2024-10-14 11:49:57.402 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-14 11:49:57.406 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-14 11:49:57.548 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-14 11:49:57.551 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 139.084ms
+2024-10-14 11:49:57.556 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-14 11:49:57.559 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 166.0655ms
+2024-10-14 12:04:59.417 -06:00 [INF] Cliente desconectado: RMriwHm_7CeXXl6Hy2oFng
+2024-10-14 12:05:00.638 -06:00 [INF] Executed endpoint '/message'
+2024-10-14 12:05:02.346 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/message?id=UAyBttmB9B2x3MMnj03JMQ - 101 null null 939100.848ms
+2024-10-14 12:51:31.997 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-14 12:51:32.036 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 38.8907ms
+2024-10-14 12:51:32.088 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-14 12:51:32.057 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-14 12:51:32.119 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-14 12:51:32.128 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 71.5805ms
+2024-10-14 12:51:32.129 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.8696ms
+2024-10-14 12:51:32.150 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.4189ms
+2024-10-14 12:51:32.375 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-14 12:51:32.386 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0426ms
+2024-10-14 12:56:08.272 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 12:56:08.274 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - null null
+2024-10-14 12:56:08.280 -06:00 [INF] CORS policy execution successful.
+2024-10-14 12:56:08.284 -06:00 [INF] CORS policy execution successful.
+2024-10-14 12:56:08.285 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 13.4095ms
+2024-10-14 12:56:08.288 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 12:56:08.286 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/message/negotiate?negotiateVersion=1 - 204 null null 12.2331ms
+2024-10-14 12:56:08.288 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - null 0
+2024-10-14 12:56:08.299 -06:00 [INF] CORS policy execution successful.
+2024-10-14 12:56:08.304 -06:00 [INF] CORS policy execution successful.
+2024-10-14 12:56:08.307 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 12:56:08.307 -06:00 [INF] Executing endpoint '/message/negotiate'
+2024-10-14 12:56:08.308 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 12:56:08.308 -06:00 [INF] Executed endpoint '/message/negotiate'
+2024-10-14 12:56:08.309 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 20.94ms
+2024-10-14 12:56:08.309 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/message/negotiate?negotiateVersion=1 - 200 316 application/json 21.2123ms
+2024-10-14 12:56:08.316 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/message?id=gD8oS-0SZGvnDbwQOaqEwA - null null
+2024-10-14 12:56:08.319 -06:00 [INF] CORS policy execution successful.
+2024-10-14 12:56:08.320 -06:00 [INF] Executing endpoint '/message'
+2024-10-14 12:56:08.323 -06:00 [INF] Cliente conectado: fHUHwWAv4xrxJ9qJFfETNw

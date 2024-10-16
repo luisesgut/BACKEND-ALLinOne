@@ -1,0 +1,1107 @@
+2024-10-15 11:53:25.399 -06:00 [INF] Iniciando la aplicación...
+2024-10-15 11:53:25.674 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-15 11:53:25.679 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 11:53:25.680 -06:00 [INF] Hosting environment: Development
+2024-10-15 11:53:25.680 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-15 11:53:26.309 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 11:53:26.515 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 209.9428ms
+2024-10-15 11:53:26.520 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 11:53:26.526 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 11:53:26.528 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 8.4733ms
+2024-10-15 11:53:26.531 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.0904ms
+2024-10-15 11:53:26.540 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 11:53:26.573 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.601ms
+2024-10-15 11:53:26.667 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 11:53:26.827 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.1377ms
+2024-10-15 11:54:00.372 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 45
+2024-10-15 11:54:00.377 -06:00 [INF] CORS policy execution successful.
+2024-10-15 11:54:00.391 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-15 11:54:00.449 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 11:54:00.475 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:54:01.128 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-15 11:54:01.135 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 655.1803ms
+2024-10-15 11:54:01.137 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 11:54:01.145 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 400 null text/plain; charset=utf-8 772.9173ms
+2024-10-15 11:56:13.728 -06:00 [INF] Iniciando la aplicación...
+2024-10-15 11:56:13.903 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-15 11:56:13.907 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 11:56:13.908 -06:00 [INF] Hosting environment: Development
+2024-10-15 11:56:13.909 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-15 11:56:14.410 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 11:56:14.580 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 174.4278ms
+2024-10-15 11:56:14.583 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 11:56:14.585 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 11:56:14.592 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 9.0047ms
+2024-10-15 11:56:14.594 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.1814ms
+2024-10-15 11:56:14.603 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 11:56:14.632 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.9952ms
+2024-10-15 11:56:14.697 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 11:56:14.823 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.5983ms
+2024-10-15 11:56:23.650 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 11:56:23.655 -06:00 [INF] CORS policy execution successful.
+2024-10-15 11:56:23.664 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-15 11:56:23.685 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 11:56:23.695 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:56:24.440 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 11:56:24.445 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 746.2794ms
+2024-10-15 11:56:24.447 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 11:56:24.451 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 801.0536ms
+2024-10-15 11:57:08.008 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 46
+2024-10-15 11:57:08.010 -06:00 [INF] CORS policy execution successful.
+2024-10-15 11:57:08.014 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 11:57:08.020 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:08.770 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 11:57:08.772 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 749.5473ms
+2024-10-15 11:57:08.773 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 11:57:08.775 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 766.5403ms
+2024-10-15 11:57:17.249 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 11:57:17.252 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 11:57:17.253 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:17.321 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:17.341 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 85.5815ms
+2024-10-15 11:57:17.343 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 11:57:17.344 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 95.0397ms
+2024-10-15 11:57:26.468 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:57:26.471 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:26.475 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:26.481 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:26.485 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 4.4864ms
+2024-10-15 11:57:26.487 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:26.489 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 20.9892ms
+2024-10-15 11:57:32.299 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 11:57:32.301 -06:00 [INF] CORS policy execution successful.
+2024-10-15 11:57:32.310 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 11:57:32.312 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:32.414 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 11:57:32.417 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 102.4685ms
+2024-10-15 11:57:32.418 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 11:57:32.419 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 119.5868ms
+2024-10-15 11:57:38.094 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:57:38.097 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:38.099 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:38.101 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:38.102 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 0.855ms
+2024-10-15 11:57:38.102 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:38.103 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 9.0796ms
+2024-10-15 11:57:38.988 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:57:38.990 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:38.990 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:38.991 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:38.992 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 0.8885ms
+2024-10-15 11:57:38.993 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:38.994 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 6.355ms
+2024-10-15 11:57:39.797 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:57:39.800 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:39.801 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:39.804 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:39.804 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 0.9719ms
+2024-10-15 11:57:39.810 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:39.813 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 15.6832ms
+2024-10-15 11:57:48.899 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:57:48.900 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:48.901 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:48.904 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:48.906 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.8175ms
+2024-10-15 11:57:48.907 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:48.908 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 9.5874ms
+2024-10-15 11:57:49.761 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:57:49.763 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:49.763 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:57:49.766 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:57:49.766 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.0219ms
+2024-10-15 11:57:49.768 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:57:49.769 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 8.0873ms
+2024-10-15 11:58:08.725 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:58:08.728 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:08.728 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:58:08.729 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:58:08.730 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.254ms
+2024-10-15 11:58:08.731 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:08.732 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 6.4996ms
+2024-10-15 11:58:14.075 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 11:58:14.077 -06:00 [INF] CORS policy execution successful.
+2024-10-15 11:58:14.078 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 11:58:14.079 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:58:14.124 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 11:58:14.126 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 44.5756ms
+2024-10-15 11:58:14.127 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 11:58:14.128 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 52.4229ms
+2024-10-15 11:58:17.280 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:58:17.283 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:17.284 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:58:17.285 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:58:17.287 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.6777ms
+2024-10-15 11:58:17.288 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:17.289 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 8.3174ms
+2024-10-15 11:58:17.865 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:58:17.868 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:17.868 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:58:17.871 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:58:17.872 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.3676ms
+2024-10-15 11:58:17.873 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:17.874 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 8.3332ms
+2024-10-15 11:58:18.384 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 11:58:18.387 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:18.387 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 11:58:18.389 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 11:58:18.390 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 0.8087ms
+2024-10-15 11:58:18.390 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 11:58:18.391 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 6.7834ms
+2024-10-15 12:03:56.741 -06:00 [INF] Iniciando la aplicación...
+2024-10-15 12:03:56.918 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-15 12:03:56.921 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 12:03:56.922 -06:00 [INF] Hosting environment: Development
+2024-10-15 12:03:56.922 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-15 12:03:57.365 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 12:03:57.548 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 187.3256ms
+2024-10-15 12:03:57.553 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 12:03:57.557 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 4.1792ms
+2024-10-15 12:03:57.566 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 12:03:57.581 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 12:03:57.586 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.635ms
+2024-10-15 12:03:57.602 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.554ms
+2024-10-15 12:03:57.667 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 12:03:57.845 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.9502ms
+2024-10-15 12:04:32.646 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 12:04:32.651 -06:00 [INF] CORS policy execution successful.
+2024-10-15 12:04:32.660 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-15 12:04:32.685 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 12:04:32.695 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:04:32.789 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 12:04:32.795 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 96.601ms
+2024-10-15 12:04:32.797 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 12:04:32.801 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 155.7086ms
+2024-10-15 12:04:41.836 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 12:04:41.848 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:41.851 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:04:41.854 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 12:04:41.869 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 15.4161ms
+2024-10-15 12:04:41.871 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:41.872 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 35.3423ms
+2024-10-15 12:04:47.722 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 12:04:47.724 -06:00 [INF] CORS policy execution successful.
+2024-10-15 12:04:47.726 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 12:04:47.729 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:04:48.046 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 12:04:48.051 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 320.7203ms
+2024-10-15 12:04:48.052 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 12:04:48.053 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 331.6811ms
+2024-10-15 12:04:53.552 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 12:04:53.554 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:53.555 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:04:53.557 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 12:04:53.558 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.3038ms
+2024-10-15 12:04:53.560 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:53.561 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 8.4032ms
+2024-10-15 12:04:54.286 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 12:04:54.288 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:54.290 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:04:54.291 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 12:04:54.292 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.3093ms
+2024-10-15 12:04:54.293 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:54.295 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 8.6368ms
+2024-10-15 12:04:54.975 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 12:04:54.981 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:54.987 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:04:54.988 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 12:04:54.990 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.7659ms
+2024-10-15 12:04:54.991 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:04:54.992 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 16.6943ms
+2024-10-15 12:05:02.989 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 12:05:02.992 -06:00 [INF] CORS policy execution successful.
+2024-10-15 12:05:02.992 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 12:05:02.994 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:05:03.005 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 12:05:03.005 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 10.765ms
+2024-10-15 12:05:03.007 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 12:05:03.008 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 18.1783ms
+2024-10-15 12:05:08.730 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 12:05:08.737 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 6.8208ms
+2024-10-15 12:05:08.748 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 12:05:08.750 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 2.7662ms
+2024-10-15 12:05:08.752 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 12:05:08.753 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 12:05:08.760 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.8529ms
+2024-10-15 12:05:08.768 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1747ms
+2024-10-15 12:05:08.830 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 12:05:08.841 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.013ms
+2024-10-15 12:05:13.584 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 12:05:13.587 -06:00 [INF] CORS policy execution successful.
+2024-10-15 12:05:13.588 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 12:05:13.589 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:05:13.590 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 12:05:13.591 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 1.2455ms
+2024-10-15 12:05:13.592 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 12:05:13.592 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 7.9153ms
+2024-10-15 12:05:18.699 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 12:05:18.702 -06:00 [INF] CORS policy execution successful.
+2024-10-15 12:05:18.703 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 12:05:18.703 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:05:18.858 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 12:05:18.860 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 154.8305ms
+2024-10-15 12:05:18.861 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 12:05:18.862 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 163.5378ms
+2024-10-15 12:05:23.844 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - null null
+2024-10-15 12:05:23.846 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:05:23.847 -06:00 [INF] Route matched with {action = "GetStatus", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatus() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 12:05:23.849 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 12:05:23.850 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS) in 1.239ms
+2024-10-15 12:05:23.851 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.GetStatus (LLRP_ANTENNAS)'
+2024-10-15 12:05:23.851 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/status - 200 null application/json; charset=utf-8 7.9339ms
+2024-10-15 12:10:00.996 -06:00 [INF] Iniciando la aplicación...
+2024-10-15 12:10:01.168 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-15 12:10:01.172 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 12:10:01.173 -06:00 [INF] Hosting environment: Development
+2024-10-15 12:10:01.174 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-15 12:10:01.728 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 12:10:01.891 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 167.659ms
+2024-10-15 12:10:01.896 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 12:10:01.899 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 12:10:01.901 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 4.886ms
+2024-10-15 12:10:01.908 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.1439ms
+2024-10-15 12:10:01.914 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 12:10:01.951 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.7924ms
+2024-10-15 12:10:02.017 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 12:10:02.135 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.905ms
+2024-10-15 13:45:29.407 -06:00 [INF] Iniciando la aplicación...
+2024-10-15 13:45:29.746 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-15 13:45:29.751 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 13:45:29.751 -06:00 [INF] Hosting environment: Development
+2024-10-15 13:45:29.752 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-15 13:45:30.120 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 13:45:30.330 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 216.641ms
+2024-10-15 13:45:30.341 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 13:45:30.348 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 6.4337ms
+2024-10-15 13:45:30.352 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 13:45:30.358 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 13:45:30.364 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.6798ms
+2024-10-15 13:45:30.397 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.3115ms
+2024-10-15 13:45:30.447 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 13:45:30.565 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.4432ms
+2024-10-15 14:04:29.388 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 14:04:29.400 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 13.8304ms
+2024-10-15 14:04:29.415 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 14:04:29.417 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 2.4294ms
+2024-10-15 14:04:29.417 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 14:04:29.418 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 14:04:29.427 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.0663ms
+2024-10-15 14:04:29.439 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.8404ms
+2024-10-15 14:04:29.491 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 14:04:29.500 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.556ms
+2024-10-15 14:08:44.099 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 14:08:44.105 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:08:44.143 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-15 14:08:44.175 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 14:08:44.218 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:08:45.312 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:08:45.318 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 1096.3668ms
+2024-10-15 14:08:45.320 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 14:08:45.325 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 1225.5951ms
+2024-10-15 14:08:51.660 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 14:08:51.663 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:08:51.666 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 14:08:51.668 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:08:51.807 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:08:51.808 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 138.8074ms
+2024-10-15 14:08:51.809 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 14:08:51.810 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 149.843ms
+2024-10-15 14:11:15.524 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 14:11:15.528 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:11:15.529 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 14:11:15.530 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:11:15.558 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:11:15.560 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 28.88ms
+2024-10-15 14:11:15.560 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 14:11:15.561 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 37.3126ms
+2024-10-15 14:11:42.636 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 14:11:42.638 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:11:42.639 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 2.8711ms
+2024-10-15 14:11:42.642 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 36
+2024-10-15 14:11:42.644 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:11:42.645 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 14:11:42.652 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:11:42.856 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:11:42.858 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 204.6591ms
+2024-10-15 14:11:42.860 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 14:11:42.861 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 218.7219ms
+2024-10-15 14:11:46.855 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 14:11:46.857 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:11:46.858 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 14:11:46.860 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:11:46.965 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:11:46.971 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 109.1514ms
+2024-10-15 14:11:46.976 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 14:11:46.978 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 122.9004ms
+2024-10-15 14:12:01.331 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 14:12:01.338 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 14:12:01.341 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:12:01.376 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 14:12:01.394 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 51.0473ms
+2024-10-15 14:12:01.396 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 14:12:01.397 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 66.0566ms
+2024-10-15 14:12:11.739 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 14:12:11.745 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 6.5181ms
+2024-10-15 14:12:11.759 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 14:12:11.759 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 14:12:11.761 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.6565ms
+2024-10-15 14:12:11.764 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 5.3373ms
+2024-10-15 14:12:11.767 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 14:12:11.780 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.8977ms
+2024-10-15 14:12:11.913 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 14:12:11.925 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6602ms
+2024-10-15 14:12:19.683 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 14:12:19.686 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 14:12:19.687 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:12:19.731 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 14:12:19.733 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 43.8994ms
+2024-10-15 14:12:19.733 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 14:12:19.734 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 50.8502ms
+2024-10-15 14:12:23.235 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 14:12:23.237 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:12:23.238 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 14:12:23.239 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:12:23.248 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:12:23.249 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 9.9271ms
+2024-10-15 14:12:23.250 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 14:12:23.251 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 16.683ms
+2024-10-15 14:12:25.104 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 14:12:25.105 -06:00 [INF] CORS policy execution successful.
+2024-10-15 14:12:25.105 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 14:12:25.106 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 14:12:25.222 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 14:12:25.223 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 115.4497ms
+2024-10-15 14:12:25.224 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 14:12:25.224 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 120.7162ms
+2024-10-15 15:41:36.717 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 15:41:36.733 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 16.0839ms
+2024-10-15 15:41:36.752 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 15:41:36.753 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 15:41:36.753 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 15:41:36.759 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.0438ms
+2024-10-15 15:41:36.761 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 8.071ms
+2024-10-15 15:41:36.771 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.3617ms
+2024-10-15 15:41:36.948 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 15:41:36.961 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.2228ms
+2024-10-15 15:41:57.896 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 43
+2024-10-15 15:41:57.900 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:41:57.900 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:41:57.901 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:41:57.904 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-15 15:41:57.905 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 2.4818ms
+2024-10-15 15:41:57.906 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:41:57.907 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 400 null text/plain; charset=utf-8 10.6266ms
+2024-10-15 15:42:02.870 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 15:42:02.872 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:42:02.872 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:42:02.873 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:42:02.898 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:42:02.899 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 24.9972ms
+2024-10-15 15:42:02.900 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:42:02.902 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 31.873ms
+2024-10-15 15:42:06.443 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 43
+2024-10-15 15:42:06.445 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:42:06.446 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:42:06.447 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:42:06.539 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:42:06.542 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 93.5388ms
+2024-10-15 15:42:06.543 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:42:06.543 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 100.5329ms
+2024-10-15 15:42:13.074 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 15:42:13.077 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:42:13.078 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:42:13.109 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 15:42:13.111 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 31.8303ms
+2024-10-15 15:42:13.113 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:42:13.113 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 39.2932ms
+2024-10-15 15:42:18.740 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 15:42:18.751 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 11.365ms
+2024-10-15 15:42:18.766 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 15:42:18.768 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 15:42:18.768 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 15:42:18.769 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 3.2225ms
+2024-10-15 15:42:18.776 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.9619ms
+2024-10-15 15:42:18.784 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3277ms
+2024-10-15 15:42:18.928 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 15:42:18.939 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.024ms
+2024-10-15 15:42:23.670 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 15:42:23.678 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:42:23.679 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:42:23.680 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:42:23.685 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:42:23.686 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 4.4026ms
+2024-10-15 15:42:23.687 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:42:23.688 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 18.164ms
+2024-10-15 15:46:03.866 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 15:46:03.871 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:03.872 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:46:03.873 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:46:03.874 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:46:03.876 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 1.397ms
+2024-10-15 15:46:03.877 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:46:03.878 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 12.3784ms
+2024-10-15 15:46:15.180 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 15:46:15.183 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:15.183 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 3.7394ms
+2024-10-15 15:46:15.186 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 33
+2024-10-15 15:46:15.189 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:15.190 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:15.191 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:46:15.362 -06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-10-15 15:46:15.364 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 171.4252ms
+2024-10-15 15:46:15.364 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:15.365 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 500 null text/plain; charset=utf-8 179.1211ms
+2024-10-15 15:46:23.348 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 15:46:23.351 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:23.352 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 4.4193ms
+2024-10-15 15:46:23.354 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 34
+2024-10-15 15:46:23.357 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:23.357 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:23.358 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:46:23.469 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:46:23.473 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 113.4748ms
+2024-10-15 15:46:23.474 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:23.475 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 120.678ms
+2024-10-15 15:46:27.963 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 34
+2024-10-15 15:46:27.967 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:27.968 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:27.969 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:46:28.071 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:46:28.073 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 102.3624ms
+2024-10-15 15:46:28.073 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:28.074 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 111.1698ms
+2024-10-15 15:46:39.034 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 15:46:39.043 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:46:39.044 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:46:39.068 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 15:46:39.070 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 24.9049ms
+2024-10-15 15:46:39.071 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:46:39.072 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 38.0621ms
+2024-10-15 15:46:52.377 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 15:46:52.381 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:52.381 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 4.6198ms
+2024-10-15 15:46:52.383 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 34
+2024-10-15 15:46:52.385 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:46:52.385 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:52.386 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:46:52.438 -06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-10-15 15:46:52.439 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 52.647ms
+2024-10-15 15:46:52.440 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:46:52.441 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 500 null text/plain; charset=utf-8 57.6138ms
+2024-10-15 15:47:03.344 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 15:47:03.347 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:47:03.347 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 3.9217ms
+2024-10-15 15:47:03.351 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 34
+2024-10-15 15:47:03.353 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:47:03.354 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:47:03.354 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:47:03.457 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:47:03.459 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 103.5852ms
+2024-10-15 15:47:03.460 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:47:03.460 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 109.6636ms
+2024-10-15 15:47:16.529 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 15:47:16.532 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:47:16.533 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:47:16.579 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 15:47:16.581 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 46.2455ms
+2024-10-15 15:47:16.582 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:47:16.583 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 53.6276ms
+2024-10-15 15:47:31.862 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 15:47:31.863 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:47:31.864 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:47:31.865 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:47:31.881 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:47:31.883 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 16.5639ms
+2024-10-15 15:47:31.884 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:47:31.886 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 23.5339ms
+2024-10-15 15:47:34.682 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 15:47:34.685 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:47:34.685 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:47:34.686 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:47:34.808 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:47:34.808 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 121.6372ms
+2024-10-15 15:47:34.809 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:47:34.810 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 128.3706ms
+2024-10-15 15:55:07.167 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 15:55:07.171 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:07.172 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:55:07.172 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:07.192 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:55:07.193 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 20.2702ms
+2024-10-15 15:55:07.194 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:55:07.194 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 27.6251ms
+2024-10-15 15:55:21.964 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 15:55:21.965 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:21.966 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 2.4113ms
+2024-10-15 15:55:21.968 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 37
+2024-10-15 15:55:21.969 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:21.971 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:55:21.971 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:22.068 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:55:22.070 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 96.864ms
+2024-10-15 15:55:22.070 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:55:22.071 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 103.2628ms
+2024-10-15 15:55:33.602 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 15:55:33.604 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:55:33.605 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:33.661 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 15:55:33.663 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 56.8104ms
+2024-10-15 15:55:33.664 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 15:55:33.665 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 62.9503ms
+2024-10-15 15:55:40.459 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 15:55:40.460 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:40.461 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 15:55:40.461 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:40.647 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:55:40.649 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 187.2169ms
+2024-10-15 15:55:40.650 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 15:55:40.653 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 194.3547ms
+2024-10-15 15:55:49.666 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 15:55:49.668 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:49.669 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:55:49.671 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:49.680 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:55:49.681 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 9.5977ms
+2024-10-15 15:55:49.683 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:55:49.684 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 17.8409ms
+2024-10-15 15:55:51.909 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 15:55:51.913 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:51.913 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:55:51.914 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:52.033 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:55:52.033 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 118.8031ms
+2024-10-15 15:55:52.034 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:55:52.034 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 125.0624ms
+2024-10-15 15:55:55.835 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 15:55:55.837 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:55:55.838 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:55:55.838 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:55:55.865 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:55:55.866 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 27.1731ms
+2024-10-15 15:55:55.867 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:55:55.867 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 32.0762ms
+2024-10-15 15:56:00.591 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 15:56:00.593 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:56:00.594 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:56:00.595 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:56:00.599 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:56:00.600 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 3.5649ms
+2024-10-15 15:56:00.601 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:56:00.601 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 9.811ms
+2024-10-15 15:56:02.355 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 15:56:02.356 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:56:02.357 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:56:02.357 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:56:02.477 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:56:02.479 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 120.656ms
+2024-10-15 15:56:02.480 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:56:02.481 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 126.3471ms
+2024-10-15 15:59:36.283 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 15:59:36.288 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:36.288 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:59:36.289 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:59:36.328 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:59:36.329 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 39.2999ms
+2024-10-15 15:59:36.329 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 15:59:36.330 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 47.0396ms
+2024-10-15 15:59:39.036 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 15:59:39.038 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:39.039 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 15:59:39.039 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:59:39.160 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:59:39.161 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 120.9866ms
+2024-10-15 15:59:39.162 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 15:59:39.163 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 126.5433ms
+2024-10-15 15:59:43.298 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 15:59:43.300 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:43.301 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:59:43.302 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:59:43.311 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:59:43.312 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 9.2479ms
+2024-10-15 15:59:43.313 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:59:43.313 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 15.5379ms
+2024-10-15 15:59:53.666 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 15:59:53.667 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:53.668 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 2.0201ms
+2024-10-15 15:59:53.670 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 37
+2024-10-15 15:59:53.672 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:53.673 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:59:53.674 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:59:53.736 -06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-10-15 15:59:53.737 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 62.5814ms
+2024-10-15 15:59:53.739 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 15:59:53.740 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 500 null text/plain; charset=utf-8 70.4298ms
+2024-10-15 15:59:57.171 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 15:59:57.174 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:57.174 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:59:57.175 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:59:57.179 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:59:57.179 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 3.3471ms
+2024-10-15 15:59:57.180 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 15:59:57.181 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 9.2864ms
+2024-10-15 15:59:59.153 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 15:59:59.154 -06:00 [INF] CORS policy execution successful.
+2024-10-15 15:59:59.155 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:59:59.155 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 15:59:59.274 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 15:59:59.275 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 118.4107ms
+2024-10-15 15:59:59.276 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 15:59:59.276 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 123.1956ms
+2024-10-15 16:00:00.883 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:00:00.885 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:00.885 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:00:00.886 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:00.918 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:00.920 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 33.2037ms
+2024-10-15 16:00:00.921 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:00:00.921 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 38.4769ms
+2024-10-15 16:00:10.969 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:00:10.971 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:10.971 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 2.6074ms
+2024-10-15 16:00:10.974 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 34
+2024-10-15 16:00:10.975 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:10.975 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:00:10.976 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:11.094 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:11.096 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 118.7999ms
+2024-10-15 16:00:11.096 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:00:11.097 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 123.2417ms
+2024-10-15 16:00:12.969 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:00:12.972 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:12.973 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:12.974 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:13.101 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:13.103 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 128.2589ms
+2024-10-15 16:00:13.103 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:13.104 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 134.343ms
+2024-10-15 16:00:19.331 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:00:19.333 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:00:19.334 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:19.360 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:00:19.362 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 27.6838ms
+2024-10-15 16:00:19.363 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:00:19.365 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 33.1378ms
+2024-10-15 16:00:24.834 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:00:24.837 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:24.839 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:24.840 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:24.849 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:24.851 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 10.9458ms
+2024-10-15 16:00:24.853 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:24.854 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 19.4111ms
+2024-10-15 16:00:31.713 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:00:31.715 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:31.715 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:00:31.715 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:31.716 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:31.717 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 0.5654ms
+2024-10-15 16:00:31.717 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:00:31.718 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 4.5876ms
+2024-10-15 16:00:40.313 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:00:40.314 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:40.314 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 1.5356ms
+2024-10-15 16:00:40.316 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 37
+2024-10-15 16:00:40.317 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:40.318 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:00:40.318 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:40.436 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:40.437 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 117.9608ms
+2024-10-15 16:00:40.438 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:00:40.439 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 123.1488ms
+2024-10-15 16:00:44.629 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:00:44.631 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:00:44.632 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:44.655 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:00:44.656 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 23.412ms
+2024-10-15 16:00:44.657 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:00:44.658 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 29.1741ms
+2024-10-15 16:00:48.915 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:00:48.917 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:48.918 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:48.919 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:49.036 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:49.042 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 122.2765ms
+2024-10-15 16:00:49.045 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:49.046 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 130.7071ms
+2024-10-15 16:00:52.084 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:00:52.086 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:52.086 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:52.087 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:52.105 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:52.106 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 18.4522ms
+2024-10-15 16:00:52.107 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:00:52.107 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 23.1996ms
+2024-10-15 16:00:55.315 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:00:55.317 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:00:55.318 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:00:55.318 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:00:55.431 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:00:55.431 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 112.2492ms
+2024-10-15 16:00:55.432 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:00:55.432 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 117.0132ms
+2024-10-15 16:05:20.340 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:05:20.345 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:05:20.345 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:05:20.346 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:05:20.364 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:05:20.365 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 17.6715ms
+2024-10-15 16:05:20.365 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:05:20.366 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 26.2418ms
+2024-10-15 16:05:31.362 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:05:31.365 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:05:31.365 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:05:31.366 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:05:31.496 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:05:31.498 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 131.4235ms
+2024-10-15 16:05:31.499 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:05:31.499 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 136.8194ms
+2024-10-15 16:05:41.284 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:05:41.286 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:05:41.286 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:05:41.287 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:05:41.307 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:05:41.309 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 21.1139ms
+2024-10-15 16:05:41.310 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:05:41.310 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 25.9355ms
+2024-10-15 16:05:46.886 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:05:46.891 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:05:46.892 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:05:46.892 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:05:47.029 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:05:47.034 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 141.1872ms
+2024-10-15 16:05:47.037 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:05:47.038 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 151.59ms
+2024-10-15 16:14:29.877 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:14:29.880 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:14:29.880 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:14:29.881 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:14:29.905 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:14:29.906 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 23.7694ms
+2024-10-15 16:14:29.906 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:14:29.907 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 31.2021ms
+2024-10-15 16:14:41.891 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:14:41.894 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:14:41.894 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 3.0491ms
+2024-10-15 16:14:41.896 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 36
+2024-10-15 16:14:41.897 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:14:41.898 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:14:41.898 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:14:41.997 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:14:41.998 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 99.0881ms
+2024-10-15 16:14:41.999 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:14:42.000 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 103.8211ms
+2024-10-15 16:14:46.752 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:14:46.755 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:14:46.755 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:14:46.756 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:14:46.882 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:14:46.884 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 126.0895ms
+2024-10-15 16:14:46.884 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:14:46.885 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 132.3367ms
+2024-10-15 16:14:53.151 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:14:53.152 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:14:53.153 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:14:53.180 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:14:53.182 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 27.636ms
+2024-10-15 16:14:53.183 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:14:53.184 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 33.015ms
+2024-10-15 16:14:56.345 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:14:56.347 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:14:56.348 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:14:56.348 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:14:56.356 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:14:56.358 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 9.0025ms
+2024-10-15 16:14:56.359 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:14:56.360 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 14.2863ms
+2024-10-15 16:14:58.335 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:14:58.337 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:14:58.337 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:14:58.338 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:14:58.468 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:14:58.471 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 132.1308ms
+2024-10-15 16:14:58.472 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:14:58.472 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 137.3421ms
+2024-10-15 16:15:00.620 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:15:00.622 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:15:00.622 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:15:00.623 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:00.653 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:15:00.654 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 29.2892ms
+2024-10-15 16:15:00.655 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:15:00.655 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 35.6362ms
+2024-10-15 16:15:07.310 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:15:07.313 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:15:07.313 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 3.0428ms
+2024-10-15 16:15:07.316 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 37
+2024-10-15 16:15:07.317 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:15:07.318 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:15:07.319 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:07.425 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:15:07.430 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 111.0442ms
+2024-10-15 16:15:07.436 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:15:07.437 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 121.1724ms
+2024-10-15 16:15:09.510 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:15:09.511 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:15:09.512 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:15:09.512 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:09.638 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:15:09.640 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 126.7063ms
+2024-10-15 16:15:09.641 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:15:09.641 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 131.6868ms
+2024-10-15 16:15:15.634 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:15:15.636 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:15:15.637 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:15.669 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:15:15.670 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 32.1118ms
+2024-10-15 16:15:15.672 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:15:15.672 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 37.7566ms
+2024-10-15 16:15:16.382 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:15:16.383 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:15:16.384 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:16.414 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:15:16.416 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 30.5912ms
+2024-10-15 16:15:16.417 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:15:16.417 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 35.594ms
+2024-10-15 16:15:21.621 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:15:21.622 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:15:21.623 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:15:21.623 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:21.632 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:15:21.632 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 8.4893ms
+2024-10-15 16:15:21.633 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:15:21.633 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 12.3112ms
+2024-10-15 16:15:23.826 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:15:23.828 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:15:23.828 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:15:23.828 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:15:23.946 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:15:23.947 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 117.8182ms
+2024-10-15 16:15:23.948 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:15:23.948 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 121.6803ms
+2024-10-15 16:18:48.151 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:18:48.156 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:18:48.156 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:18:48.157 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:18:48.203 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:18:48.224 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 66.1151ms
+2024-10-15 16:18:48.230 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:18:48.233 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 82.5315ms
+2024-10-15 16:18:55.605 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:18:55.609 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:18:55.610 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 5.0556ms
+2024-10-15 16:18:55.611 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 34
+2024-10-15 16:18:55.613 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:18:55.614 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:18:55.615 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:18:55.706 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:18:55.707 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 90.8335ms
+2024-10-15 16:18:55.708 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:18:55.708 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 96.7015ms
+2024-10-15 16:18:57.770 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:18:57.773 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:18:57.773 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:18:57.773 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:18:57.887 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:18:57.888 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 113.735ms
+2024-10-15 16:18:57.889 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:18:57.889 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 119.0128ms
+2024-10-15 16:19:05.702 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:19:05.704 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:19:05.704 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:19:05.735 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:19:05.739 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 33.2099ms
+2024-10-15 16:19:05.740 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:19:05.740 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 38.5004ms
+2024-10-15 16:19:09.123 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 16:19:09.132 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 9.3157ms
+2024-10-15 16:19:09.146 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 16:19:09.147 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 16:19:09.148 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 16:19:09.148 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 2.9002ms
+2024-10-15 16:19:09.150 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.9373ms
+2024-10-15 16:19:09.162 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.4592ms
+2024-10-15 16:19:09.301 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 16:19:09.309 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.472ms
+2024-10-15 16:19:17.977 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:19:17.979 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:19:17.980 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:19:18.011 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:19:18.012 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 31.4631ms
+2024-10-15 16:19:18.013 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:19:18.014 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 37.8116ms
+2024-10-15 16:19:22.599 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:19:22.601 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:19:22.601 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:19:22.602 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:19:22.610 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:19:22.611 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 8.3434ms
+2024-10-15 16:19:22.611 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:19:22.612 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 12.5729ms
+2024-10-15 16:19:24.188 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:19:24.189 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:19:24.190 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:19:24.190 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:19:24.311 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:19:24.312 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 120.2303ms
+2024-10-15 16:19:24.312 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:19:24.313 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 125.3224ms
+2024-10-15 16:21:17.824 -06:00 [INF] Iniciando la aplicación...
+2024-10-15 16:21:18.034 -06:00 [INF] Now listening on: http://localhost:5239
+2024-10-15 16:21:18.038 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-15 16:21:18.038 -06:00 [INF] Hosting environment: Development
+2024-10-15 16:21:18.039 -06:00 [INF] Content root path: C:\Users\luiss\Desktop\LLRP_ANTENAS\BACKEND-ALLinOne\LLRP_ANTENNAS
+2024-10-15 16:21:18.295 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - null null
+2024-10-15 16:21:18.471 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - 200 null text/html;charset=utf-8 183.298ms
+2024-10-15 16:21:18.482 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.js - null null
+2024-10-15 16:21:18.486 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.js - 200 null application/javascript;charset=utf-8 3.6447ms
+2024-10-15 16:21:18.501 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-15 16:21:18.501 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2024-10-15 16:21:18.506 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.8409ms
+2024-10-15 16:21:18.538 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4108ms
+2024-10-15 16:21:18.703 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - null null
+2024-10-15 16:21:18.828 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.0752ms
+2024-10-15 16:21:22.919 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:21:22.924 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:21:22.932 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-15 16:21:22.952 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:21:22.961 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:21:23.083 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:21:23.088 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 121.5894ms
+2024-10-15 16:21:23.090 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:21:23.094 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 174.9114ms
+2024-10-15 16:21:34.914 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:21:34.916 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:21:34.918 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 3.6851ms
+2024-10-15 16:21:34.919 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 37
+2024-10-15 16:21:34.921 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:21:34.925 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:21:34.931 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:21:35.124 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:21:35.126 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 193.1987ms
+2024-10-15 16:21:35.127 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:21:35.128 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 208.5122ms
+2024-10-15 16:21:45.414 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:21:45.417 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:21:45.419 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:21:45.447 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:21:45.464 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 43.2644ms
+2024-10-15 16:21:45.465 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:21:45.466 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 52.1498ms
+2024-10-15 16:21:52.117 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:21:52.121 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:21:52.122 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:21:52.125 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:21:52.234 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:21:52.236 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 110.1772ms
+2024-10-15 16:21:52.236 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:21:52.237 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 120.6142ms
+2024-10-15 16:22:06.544 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:22:06.545 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:06.545 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:06.547 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:06.556 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:06.557 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 10.0973ms
+2024-10-15 16:22:06.558 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:06.559 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 15.3402ms
+2024-10-15 16:22:08.861 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 16:22:08.871 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:08.874 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:22:08.882 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:09.014 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:09.016 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 128.5631ms
+2024-10-15 16:22:09.017 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 16:22:09.017 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 156.3113ms
+2024-10-15 16:22:15.424 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:22:15.426 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:22:15.427 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:15.481 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:22:15.483 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 54.2117ms
+2024-10-15 16:22:15.484 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:22:15.485 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 61.479ms
+2024-10-15 16:22:20.130 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:22:20.136 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:20.136 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:22:20.137 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:20.138 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:20.138 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 0.7117ms
+2024-10-15 16:22:20.139 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:22:20.140 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 9.6154ms
+2024-10-15 16:22:25.710 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - null null
+2024-10-15 16:22:25.713 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:25.713 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5239/api/EntradaPT/configurar-antenas - 204 null null 2.7478ms
+2024-10-15 16:22:25.715 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - application/json 37
+2024-10-15 16:22:25.717 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:25.718 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:22:25.720 -06:00 [INF] Route matched with {action = "ConfigurarAntenas", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConfigurarAntenas(ConfiguracionAntenaRequest) on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:25.843 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:25.844 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS) in 122.856ms
+2024-10-15 16:22:25.845 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConfigurarAntenas (LLRP_ANTENNAS)'
+2024-10-15 16:22:25.846 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/configurar-antenas - 200 null text/plain; charset=utf-8 130.878ms
+2024-10-15 16:22:30.325 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - null null
+2024-10-15 16:22:30.327 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:22:30.328 -06:00 [INF] Route matched with {action = "VerifySettings", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifySettings() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:30.364 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-15 16:22:30.366 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS) in 36.6206ms
+2024-10-15 16:22:30.367 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.VerifySettings (LLRP_ANTENNAS)'
+2024-10-15 16:22:30.368 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT/verify-settings - 200 null application/json; charset=utf-8 43.214ms
+2024-10-15 16:22:33.988 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:22:33.989 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:33.990 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:33.990 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:34.129 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:34.131 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 140.4415ms
+2024-10-15 16:22:34.133 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:34.134 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 146.0248ms
+2024-10-15 16:22:40.159 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:22:40.161 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:40.162 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:40.162 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:40.179 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:40.180 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 16.9475ms
+2024-10-15 16:22:40.181 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:40.181 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 22.5306ms
+2024-10-15 16:22:53.680 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 16:22:53.681 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:53.682 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:22:53.683 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:53.684 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:53.684 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 0.6876ms
+2024-10-15 16:22:53.685 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 16:22:53.685 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 5.3946ms
+2024-10-15 16:22:59.326 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - null 0
+2024-10-15 16:22:59.329 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:22:59.329 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:59.330 -06:00 [INF] Route matched with {action = "StartReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:22:59.494 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:22:59.496 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS) in 164.9309ms
+2024-10-15 16:22:59.496 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StartReading (LLRP_ANTENNAS)'
+2024-10-15 16:22:59.497 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/start-reading - 200 null text/plain; charset=utf-8 170.4779ms
+2024-10-15 16:23:03.258 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - null 0
+2024-10-15 16:23:03.260 -06:00 [INF] CORS policy execution successful.
+2024-10-15 16:23:03.260 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:23:03.261 -06:00 [INF] Route matched with {action = "StopReading", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopReading() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 16:23:03.268 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 16:23:03.270 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS) in 8.2734ms
+2024-10-15 16:23:03.271 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.StopReading (LLRP_ANTENNAS)'
+2024-10-15 16:23:03.271 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/stop-reading - 200 null text/plain; charset=utf-8 13.3313ms
+2024-10-15 17:13:36.995 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT - null null
+2024-10-15 17:13:37.017 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT - 404 0 null 22.9791ms
+2024-10-15 17:13:37.019 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5239/api/EntradaPT, Response status code: 404
+2024-10-15 17:13:37.139 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/api/EntradaPT - null null
+2024-10-15 17:13:37.144 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/api/EntradaPT - 404 0 null 5.5662ms
+2024-10-15 17:13:37.146 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5239/api/EntradaPT, Response status code: 404
+2024-10-15 17:13:59.413 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - null 0
+2024-10-15 17:13:59.417 -06:00 [INF] CORS policy execution successful.
+2024-10-15 17:13:59.417 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 17:13:59.418 -06:00 [INF] Route matched with {action = "ConnectReader", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ConnectReader() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 17:13:59.419 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 17:13:59.420 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS) in 0.8024ms
+2024-10-15 17:13:59.421 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ConnectReader (LLRP_ANTENNAS)'
+2024-10-15 17:13:59.421 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/connect - 200 null text/plain; charset=utf-8 8.1883ms
+2024-10-15 17:14:03.596 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - null 0
+2024-10-15 17:14:03.597 -06:00 [INF] CORS policy execution successful.
+2024-10-15 17:14:03.598 -06:00 [INF] Executing endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 17:14:03.600 -06:00 [INF] Route matched with {action = "ForceDisconnect", controller = "EntradaPT"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForceDisconnect() on controller LLRP_ANTENNAS.Controllers.EntradaPTController (LLRP_ANTENNAS).
+2024-10-15 17:14:03.742 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-15 17:14:03.744 -06:00 [INF] Executed action LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS) in 143.1673ms
+2024-10-15 17:14:03.745 -06:00 [INF] Executed endpoint 'LLRP_ANTENNAS.Controllers.EntradaPTController.ForceDisconnect (LLRP_ANTENNAS)'
+2024-10-15 17:14:03.745 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/api/EntradaPT/force-disconnect - 200 null text/plain; charset=utf-8 149.4695ms
